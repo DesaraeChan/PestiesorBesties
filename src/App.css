@@ -33,7 +33,7 @@
   padding-left: 4.5em;
   padding-right: 4.5em;
   padding-bottom: 3.5em;
-  padding-top: 1.5em;
+  padding-top: 1em;
 }
 
 .col {
@@ -42,8 +42,11 @@
 }
 
 .QuickSelect {
+  position: absolute;
+  text-align: center;
   font-size: calc(16px + 2vmin);
-  padding-top: 200px;
+  top: 670px;
+  left: 100px;
 }
 
 .SearchBar {
@@ -112,7 +115,8 @@
   margin-top: 15px;
   /* border: 1px solid red; */
   padding-top: 40px;
-  background-color: white;
+  /* background-color: white; */
+  background-color: #FCFAF3;
 }
 
 
